@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return(
         <div>
-            <section class="about sec-pad">
+             xvbnjmkl;
+              <section class="about sec-pad">
                 <div class="main-container">
                     <h2 class="heading heading-sec heading-sec__mb-med">
                         <span class="heading-sec__main">About Me</span>

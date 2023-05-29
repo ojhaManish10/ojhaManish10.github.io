@@ -16,7 +16,7 @@ const Projects = () => {
         const url = 'https://api.dictionaryapi.dev/api/v2/entries/en/' + inputWord;
         const test = fetch(url)
         .then(response => response.json())
-        .then(json => {
+        .then( json => {
             setMeaning({
                 word: json[0].word,
                 phonetic: json[0].phonetic,

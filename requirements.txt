@@ -1,0 +1,8 @@
+#for weather application
+
+1.  React Accessible Accordion : By default, only one item may be expanded and it can only be collapsed again by expanding another.
+    npm i react-accessible-accordion
+
+2.  Pagination: The react-paginate library makes it easy to render pagination in React.
+    npm i react-select-async-paginate
+
