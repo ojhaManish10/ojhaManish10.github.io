@@ -1,13 +1,7 @@
-import Search from '../../components/Search/search';
 import './Home.css';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-
-    const handleOnSearchChange = (searchData) =>{
-        console.log(searchData)
-    }
-
     return(
         <div>
             <section class="home-hero">
@@ -23,8 +17,6 @@ const Home = () => {
                     <div class="home-hero__cta">
                         <Link to="/projects" class="btn btn--bg">Projects</Link>
                     </div>
-                    <br /><br /><br /><br /><br /><br /><br /><br />
-                    <Search onSearchChange={handleOnSearchChange}/>
                 </div>
                 <div class="home-hero__socials">
                     <div class="home-hero__social">
