@@ -4,26 +4,26 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
     return(
         <div className='header'>
-            <div class="header__content">
-                <div class="header__logo-container">
-                    <div class="header__logo-img-cont">
-                        <img src="img/manish-icon.png" alt="Manish Ojha Logo Image" class="header__logo-img" />
+            <div className="header__content">
+                <div className="header__logo-container">
+                    <div className="header__logo-img-cont">
+                        <img src="img/manish-icon.png" alt="Manish Ojha Logo Image" className="header__logo-img" />
                     </div>
-                    <Link to="/" class="header__logo-sub">Manish Ojha</Link>
+                    <Link to="/" className="header__logo-sub">Manish Ojha</Link>
                 </div>
-                <div class="header__main">
-                    <ul class="header__links">
-                        <li class="header__link-wrapper">
-                            <Link to="/" class="header__link">Home</Link>
+                <div className="header__main">
+                    <ul className="header__links">
+                        <li className="header__link-wrapper">
+                            <Link to="/" className="header__link">Home</Link>
                         </li>
-                        <li class="header__link-wrapper">
-                            <Link to="/about" class="header__link">About</Link>
+                        <li className="header__link-wrapper">
+                            <Link to="/about" className="header__link">About</Link>
                         </li>
-                        <li class="header__link-wrapper">
-                            <Link to="/projects" class="header__link">Projects</Link>
+                        <li className="header__link-wrapper">
+                            <Link to="/projects" className="header__link">Projects</Link>
                         </li>
-                        <li class="header__link-wrapper">
-                            <Link to="/contact" class="header__link">Contact</Link>
+                        <li className="header__link-wrapper">
+                            <Link to="/contact" className="header__link">Contact</Link>
                         </li>
                     </ul>
 

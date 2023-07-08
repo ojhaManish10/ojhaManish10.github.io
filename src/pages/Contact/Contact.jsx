@@ -27,43 +27,43 @@ const Contact = () => {
 
     return(
         <div>
-            <section class="contact sec-pad dynamicBg">
-                <div class="main-container">
-                    <h2 class="heading heading-sec heading-sec__mb-med">
-                        <span class="heading-sec__main">Contact</span>
-                        <span class="heading-sec__sub heading-sec__sub--lt">
+            <section className="contact sec-pad dynamicBg">
+                <div className="main-container">
+                    <h2 className="heading heading-sec heading-sec__mb-med">
+                        <span className="heading-sec__main">Contact</span>
+                        <span className="heading-sec__sub heading-sec__sub--lt">
                             Feel free to Contact me by submitting the form below and I will get
                             back to you as soon as possible
                         </span>
                     </h2>
-                    <div class="contact__form-container">
-                        <form id="contactForm" class='contact__form'>
+                    <div className="contact__form-container">
+                        <form id="contactForm" className='contact__form'>
                             <input type='hidden' name='form-name' value='form 1' />
-                            <div class="contact__form-field">
-                                <label class="contact__form-label" for="full-name">Name</label>
+                            <div className="contact__form-field">
+                                <label className="contact__form-label" for="full-name">Name</label>
                                 <input 
                                     id="full-name" 
                                     value={name}
                                     required placeholder="Enter Your Name" 
                                     type="text" 
-                                    class="contact__form-input" 
+                                    className="contact__form-input" 
                                     name="full-name"
                                     onChange={(e) => setName(e.target.value)}
                                     />
                             </div>
-                            <div class="contact__form-field">
-                                <label class="contact__form-label" for="email">Email</label>
-                                <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email"
+                            <div className="contact__form-field">
+                                <label className="contact__form-label" for="email">Email</label>
+                                <input required placeholder="Enter Your Email" type="email" className="contact__form-input" name="email"
                                     id="email" />
                             </div>
-                            <div class="contact__form-field">
-                                <label class="contact__form-label" for="message">Message</label>
-                                <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
+                            <div className="contact__form-field">
+                                <label className="contact__form-label" for="message">Message</label>
+                                <textarea required cols="30" rows="10" className="contact__form-input" placeholder="Enter Your Message"
                                         name="message" id="message"></textarea>
                             </div>
                             <button 
                                 // type="submit" 
-                                class="btn btn--theme contact__btn"
+                                className="btn btn--theme contact__btn"
                                 onClick={() => handleSubmit()}
                                 >
                                 Submit
@@ -71,7 +71,7 @@ const Contact = () => {
 
                             
                         </form>
-                        <p class="contact__form-label">{thanksMsg}</p>
+                        <p className="contact__form-label">{thanksMsg}</p>
 
 
                     </div>
