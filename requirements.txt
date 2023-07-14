@@ -6,3 +6,5 @@
 2.  Pagination: The react-paginate library makes it easy to render pagination in React.
     npm i react-select-async-paginate
 
+3. MUI Icons
+   npm install @mui/icons-material @mui/material @emotion/styled @emotion/react

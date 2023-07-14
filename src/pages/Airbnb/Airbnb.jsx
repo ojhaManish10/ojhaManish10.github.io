@@ -1,5 +1,8 @@
 import "./Airbnb.css"
 import logo from "../../assets/logo/long-logo.png";
+import BasicMenu from "./ProfileMenu";
+import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
+import LanguageIcon from "@mui/icons-material/Language";
 
 
 const Airbnb = () =>{
@@ -11,13 +14,16 @@ const Airbnb = () =>{
             <div className="search-bar-text">Any Week</div>
             <div className="search-bar-text2">Add guests</div>
             <div className="search-icon-div">
+                <SearchRoundedIcon className="search-icon" />
             </div>
           </div>
           <div className="profile-container">
             <div className="airbnb-your-home">Airbnb your home</div>
             <div className="airbnb-your-home">
+            <LanguageIcon sx={{ fontSize: "1.3rem" }} />
             </div>
             <div className="profile-div">
+            <BasicMenu />
             </div>
           </div>
         </div>
