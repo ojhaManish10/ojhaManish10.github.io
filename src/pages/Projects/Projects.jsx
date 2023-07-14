@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Search from '../../components/Search/search';
 import CurrentWeater from '../../components/current-weather/current-weather';
 import { WEATHER_API_URL, WEATHER_API_KEY } from '../../api/api';
@@ -65,6 +66,7 @@ const Projects = () => {
                         <span className="heading-sec__main">Dictonary</span>
                         <span className="heading-sec__sub heading-sec__sub--lt">
                             Search for a word
+                            <Link to="/projects/airbnb" className="btn btn--med btn--theme dynamicBgClr">Next project</Link>
                         </span>
                     </h2>
                     <div className="contact__form-container">
